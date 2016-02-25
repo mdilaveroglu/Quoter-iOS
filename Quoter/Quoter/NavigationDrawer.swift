@@ -10,7 +10,7 @@ import UIKit
 import Font_Awesome_Swift
 import MMDrawerController
 
-class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,18 +29,7 @@ class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDele
         UIApplication.sharedApplication().statusBarHidden = true;
         tableView.tableFooterView = UIView()
     }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-    }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuItems.count;
@@ -70,18 +59,13 @@ class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDele
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         switch indexPath.row {
         case 0:
-            print("Quote of the Day")
-            
             let qodViewController = self.storyboard?.instantiateViewControllerWithIdentifier("QODViewController") as! QODViewController
             let qodNavController = UINavigationController(rootViewController: qodViewController);
             let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
             
             appDelegate.centerContainer!.centerViewController = qodNavController
             appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
-            
         case 1:
-            print("Popular Quotes")
-            
             let popularQuotesViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PopularQuotesViewController") as! PopularQuotesViewController
             let popularQuotesNavController = UINavigationController(rootViewController: popularQuotesViewController);
             let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -89,8 +73,6 @@ class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDele
             appDelegate.centerContainer!.centerViewController = popularQuotesNavController
             appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
         case 2:
-            print("Write Your Own")
-            
             let writeYourOwnViewController = self.storyboard?.instantiateViewControllerWithIdentifier("WriteYourOwnViewController") as! WriteYourOwnViewController
             let writeYourOwnNavController = UINavigationController(rootViewController: writeYourOwnViewController);
             let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -98,8 +80,6 @@ class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDele
             appDelegate.centerContainer!.centerViewController = writeYourOwnNavController
             appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
         case 3:
-            print("Favorite Quotes")
-            
             let favoriteQuotesViewController = self.storyboard?.instantiateViewControllerWithIdentifier("FavoriteQuotesViewController") as! FavoriteQuotesViewController
             let favoriteQuotesNavController = UINavigationController(rootViewController: favoriteQuotesViewController);
             let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -107,8 +87,6 @@ class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDele
             appDelegate.centerContainer!.centerViewController = favoriteQuotesNavController
             appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
         case 4:
-            print("About Me")
-            
             let aboutMeViewController = self.storyboard?.instantiateViewControllerWithIdentifier("AboutMeViewController") as! AboutMeViewController
             let aboutMeNavController = UINavigationController(rootViewController: aboutMeViewController);
             let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate

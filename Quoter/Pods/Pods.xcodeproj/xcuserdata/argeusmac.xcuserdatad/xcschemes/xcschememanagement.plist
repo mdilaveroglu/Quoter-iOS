@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Kanna.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MMDrawerController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,7 +52,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D82B47DB964DF0C0F01178757D697383</key>
+		<key>A0C013613DEDC651DA4D7DB6BD49DB8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6312CAD7E18804AD5E11308495CFD52</key>
 		<dict>
 			<key>primary</key>
 			<true/>

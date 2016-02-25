@@ -15,6 +15,51 @@
 		5C60C0331C7CA6A100630EF7 /* FavoriteQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60C0321C7CA6A100630EF7 /* FavoriteQuotesViewController.swift */; };
 		5C60C0381C7CA7DD00630EF7 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60C0371C7CA7DD00630EF7 /* AboutMeViewController.swift */; };
 		5C60C03A1C7CA88600630EF7 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60C0391C7CA88600630EF7 /* CreditsViewController.swift */; };
+		5CDA5FF81C7EFCEF003E74F6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA5FF71C7EFCEF003E74F6 /* SwiftyJSON.swift */; };
+		5CDA60241C7F2489003E74F6 /* AlexBrush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5FFA1C7F125A003E74F6 /* AlexBrush-Regular.ttf */; };
+		5CDA60251C7F248F003E74F6 /* Aller_Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5FFB1C7F125A003E74F6 /* Aller_Lt.ttf */; };
+		5CDA60261C7F248F003E74F6 /* Allura-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5FFC1C7F125A003E74F6 /* Allura-Regular.otf */; };
+		5CDA60271C7F248F003E74F6 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5FFD1C7F125A003E74F6 /* AmaticSC-Regular.ttf */; };
+		5CDA60281C7F248F003E74F6 /* Antonio-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5FFE1C7F125A003E74F6 /* Antonio-Regular.ttf */; };
+		5CDA60291C7F248F003E74F6 /* Arizonia-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5FFF1C7F125A003E74F6 /* Arizonia-Regular.ttf */; };
+		5CDA602A1C7F248F003E74F6 /* BEBAS___.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60001C7F125A003E74F6 /* BEBAS___.ttf */; };
+		5CDA602B1C7F248F003E74F6 /* black_jack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60011C7F125A003E74F6 /* black_jack.ttf */; };
+		5CDA602C1C7F248F003E74F6 /* cac_champagne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60021C7F125A003E74F6 /* cac_champagne.ttf */; };
+		5CDA602D1C7F248F003E74F6 /* Capture_it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60031C7F125A003E74F6 /* Capture_it.ttf */; };
+		5CDA602E1C7F248F003E74F6 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60041C7F125A003E74F6 /* CaviarDreams.ttf */; };
+		5CDA602F1C7F248F003E74F6 /* Chunkfive.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60051C7F125A003E74F6 /* Chunkfive.otf */; };
+		5CDA60301C7F248F003E74F6 /* DancingScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60061C7F125A003E74F6 /* DancingScript-Regular.otf */; };
+		5CDA60311C7F248F003E74F6 /* Dosis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60071C7F125A003E74F6 /* Dosis-Regular.otf */; };
+		5CDA60321C7F248F003E74F6 /* Exo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60081C7F125A003E74F6 /* Exo-Regular.otf */; };
+		5CDA60331C7F248F003E74F6 /* FFF_Tusj.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60091C7F125A003E74F6 /* FFF_Tusj.ttf */; };
+		5CDA60341C7F248F003E74F6 /* GoodDog.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA600A1C7F125A003E74F6 /* GoodDog.otf */; };
+		5CDA60351C7F248F003E74F6 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA600B1C7F125A003E74F6 /* GrandHotel-Regular.otf */; };
+		5CDA60361C7F248F003E74F6 /* GreatVibes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA600C1C7F125A003E74F6 /* GreatVibes-Regular.otf */; };
+		5CDA60371C7F248F003E74F6 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA600D1C7F125A003E74F6 /* KaushanScript-Regular.otf */; };
+		5CDA60381C7F248F003E74F6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA600E1C7F125A003E74F6 /* Lato-Regular.ttf */; };
+		5CDA60391C7F248F003E74F6 /* LeagueGothic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA600F1C7F125A003E74F6 /* LeagueGothic-Regular.otf */; };
+		5CDA603A1C7F248F003E74F6 /* LearningCurve_OT.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60101C7F125A003E74F6 /* LearningCurve_OT.otf */; };
+		5CDA603B1C7F248F003E74F6 /* Lobster.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60111C7F125A003E74F6 /* Lobster.otf */; };
+		5CDA603C1C7F248F003E74F6 /* LobsterTwo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60121C7F125A003E74F6 /* LobsterTwo-Regular.otf */; };
+		5CDA603D1C7F248F003E74F6 /* Mathlete-Bulky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60131C7F125A003E74F6 /* Mathlete-Bulky.otf */; };
+		5CDA603E1C7F248F003E74F6 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60141C7F125A003E74F6 /* Montserrat-Regular.otf */; };
+		5CDA603F1C7F248F003E74F6 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60151C7F125A003E74F6 /* OpenSans-Regular.ttf */; };
+		5CDA60401C7F248F003E74F6 /* ostrich-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60161C7F125A003E74F6 /* ostrich-regular.ttf */; };
+		5CDA60411C7F248F003E74F6 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60171C7F125A003E74F6 /* Oswald-Regular.ttf */; };
+		5CDA60421C7F248F003E74F6 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60181C7F125A003E74F6 /* Pacifico.ttf */; };
+		5CDA60431C7F248F003E74F6 /* PlayfairDisplaySC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60191C7F125A003E74F6 /* PlayfairDisplaySC-Regular.ttf */; };
+		5CDA60441C7F248F003E74F6 /* Quicksand-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA601A1C7F125A003E74F6 /* Quicksand-Regular.otf */; };
+		5CDA60451C7F248F003E74F6 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA601B1C7F125A003E74F6 /* Raleway-Regular.ttf */; };
+		5CDA60461C7F248F003E74F6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA601C1C7F125A003E74F6 /* Roboto-Regular.ttf */; };
+		5CDA60471C7F248F003E74F6 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA601D1C7F125A003E74F6 /* RobotoSlab-Regular.ttf */; };
+		5CDA60481C7F248F003E74F6 /* SEASRN__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA601E1C7F125A003E74F6 /* SEASRN__.ttf */; };
+		5CDA60491C7F248F003E74F6 /* Sofia-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA601F1C7F125A003E74F6 /* Sofia-Regular.otf */; };
+		5CDA604A1C7F248F003E74F6 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60201C7F125A003E74F6 /* SourceSansPro-Regular.otf */; };
+		5CDA604B1C7F248F003E74F6 /* Titillium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60211C7F125A003E74F6 /* Titillium-Regular.otf */; };
+		5CDA604C1C7F248F003E74F6 /* Walkway_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60221C7F125A003E74F6 /* Walkway_Bold.ttf */; };
+		5CDA604D1C7F248F003E74F6 /* Windsong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA60231C7F125A003E74F6 /* Windsong.ttf */; };
+		5CDA60501C7F3E0F003E74F6 /* PopularQuotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA604F1C7F3E0F003E74F6 /* PopularQuotesCell.swift */; };
+		5CDA60521C7F3E82003E74F6 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA60511C7F3E82003E74F6 /* Quote.swift */; };
 		5CDCB15D1C7C65A0002786DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCB15C1C7C65A0002786DB /* AppDelegate.swift */; };
 		5CDCB15F1C7C65A0002786DB /* QODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCB15E1C7C65A0002786DB /* QODViewController.swift */; };
 		5CDCB1621C7C65A0002786DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDCB1601C7C65A0002786DB /* Main.storyboard */; };
@@ -33,6 +78,51 @@
 		5C60C0321C7CA6A100630EF7 /* FavoriteQuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteQuotesViewController.swift; sourceTree = "<group>"; };
 		5C60C0371C7CA7DD00630EF7 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		5C60C0391C7CA88600630EF7 /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		5CDA5FF71C7EFCEF003E74F6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5CDA5FFA1C7F125A003E74F6 /* AlexBrush-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlexBrush-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA5FFB1C7F125A003E74F6 /* Aller_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Lt.ttf; sourceTree = "<group>"; };
+		5CDA5FFC1C7F125A003E74F6 /* Allura-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Allura-Regular.otf"; sourceTree = "<group>"; };
+		5CDA5FFD1C7F125A003E74F6 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA5FFE1C7F125A003E74F6 /* Antonio-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antonio-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA5FFF1C7F125A003E74F6 /* Arizonia-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arizonia-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA60001C7F125A003E74F6 /* BEBAS___.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BEBAS___.ttf"; sourceTree = "<group>"; };
+		5CDA60011C7F125A003E74F6 /* black_jack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = black_jack.ttf; sourceTree = "<group>"; };
+		5CDA60021C7F125A003E74F6 /* cac_champagne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cac_champagne.ttf; sourceTree = "<group>"; };
+		5CDA60031C7F125A003E74F6 /* Capture_it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Capture_it.ttf; sourceTree = "<group>"; };
+		5CDA60041C7F125A003E74F6 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		5CDA60051C7F125A003E74F6 /* Chunkfive.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chunkfive.otf; sourceTree = "<group>"; };
+		5CDA60061C7F125A003E74F6 /* DancingScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60071C7F125A003E74F6 /* Dosis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60081C7F125A003E74F6 /* Exo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60091C7F125A003E74F6 /* FFF_Tusj.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FFF_Tusj.ttf; sourceTree = "<group>"; };
+		5CDA600A1C7F125A003E74F6 /* GoodDog.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GoodDog.otf; sourceTree = "<group>"; };
+		5CDA600B1C7F125A003E74F6 /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
+		5CDA600C1C7F125A003E74F6 /* GreatVibes-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.otf"; sourceTree = "<group>"; };
+		5CDA600D1C7F125A003E74F6 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		5CDA600E1C7F125A003E74F6 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA600F1C7F125A003E74F6 /* LeagueGothic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueGothic-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60101C7F125A003E74F6 /* LearningCurve_OT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LearningCurve_OT.otf; sourceTree = "<group>"; };
+		5CDA60111C7F125A003E74F6 /* Lobster.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobster.otf; sourceTree = "<group>"; };
+		5CDA60121C7F125A003E74F6 /* LobsterTwo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60131C7F125A003E74F6 /* Mathlete-Bulky.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mathlete-Bulky.otf"; sourceTree = "<group>"; };
+		5CDA60141C7F125A003E74F6 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60151C7F125A003E74F6 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA60161C7F125A003E74F6 /* ostrich-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ostrich-regular.ttf"; sourceTree = "<group>"; };
+		5CDA60171C7F125A003E74F6 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA60181C7F125A003E74F6 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		5CDA60191C7F125A003E74F6 /* PlayfairDisplaySC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplaySC-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA601A1C7F125A003E74F6 /* Quicksand-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.otf"; sourceTree = "<group>"; };
+		5CDA601B1C7F125A003E74F6 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA601C1C7F125A003E74F6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA601D1C7F125A003E74F6 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		5CDA601E1C7F125A003E74F6 /* SEASRN__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEASRN__.ttf; sourceTree = "<group>"; };
+		5CDA601F1C7F125A003E74F6 /* Sofia-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60201C7F125A003E74F6 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60211C7F125A003E74F6 /* Titillium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Regular.otf"; sourceTree = "<group>"; };
+		5CDA60221C7F125A003E74F6 /* Walkway_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Walkway_Bold.ttf; sourceTree = "<group>"; };
+		5CDA60231C7F125A003E74F6 /* Windsong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Windsong.ttf; sourceTree = "<group>"; };
+		5CDA604F1C7F3E0F003E74F6 /* PopularQuotesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularQuotesCell.swift; sourceTree = "<group>"; };
+		5CDA60511C7F3E82003E74F6 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		5CDCB1591C7C65A0002786DB /* Quoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDCB15C1C7C65A0002786DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDCB15E1C7C65A0002786DB /* QODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QODViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +178,63 @@
 			name = NavigationDrawer;
 			sourceTree = "<group>";
 		};
+		5CDA5FF91C7F1245003E74F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5CDA5FFA1C7F125A003E74F6 /* AlexBrush-Regular.ttf */,
+				5CDA5FFB1C7F125A003E74F6 /* Aller_Lt.ttf */,
+				5CDA5FFC1C7F125A003E74F6 /* Allura-Regular.otf */,
+				5CDA5FFD1C7F125A003E74F6 /* AmaticSC-Regular.ttf */,
+				5CDA5FFE1C7F125A003E74F6 /* Antonio-Regular.ttf */,
+				5CDA5FFF1C7F125A003E74F6 /* Arizonia-Regular.ttf */,
+				5CDA60001C7F125A003E74F6 /* BEBAS___.ttf */,
+				5CDA60011C7F125A003E74F6 /* black_jack.ttf */,
+				5CDA60021C7F125A003E74F6 /* cac_champagne.ttf */,
+				5CDA60031C7F125A003E74F6 /* Capture_it.ttf */,
+				5CDA60041C7F125A003E74F6 /* CaviarDreams.ttf */,
+				5CDA60051C7F125A003E74F6 /* Chunkfive.otf */,
+				5CDA60061C7F125A003E74F6 /* DancingScript-Regular.otf */,
+				5CDA60071C7F125A003E74F6 /* Dosis-Regular.otf */,
+				5CDA60081C7F125A003E74F6 /* Exo-Regular.otf */,
+				5CDA60091C7F125A003E74F6 /* FFF_Tusj.ttf */,
+				5CDA600A1C7F125A003E74F6 /* GoodDog.otf */,
+				5CDA600B1C7F125A003E74F6 /* GrandHotel-Regular.otf */,
+				5CDA600C1C7F125A003E74F6 /* GreatVibes-Regular.otf */,
+				5CDA600D1C7F125A003E74F6 /* KaushanScript-Regular.otf */,
+				5CDA600E1C7F125A003E74F6 /* Lato-Regular.ttf */,
+				5CDA600F1C7F125A003E74F6 /* LeagueGothic-Regular.otf */,
+				5CDA60101C7F125A003E74F6 /* LearningCurve_OT.otf */,
+				5CDA60111C7F125A003E74F6 /* Lobster.otf */,
+				5CDA60121C7F125A003E74F6 /* LobsterTwo-Regular.otf */,
+				5CDA60131C7F125A003E74F6 /* Mathlete-Bulky.otf */,
+				5CDA60141C7F125A003E74F6 /* Montserrat-Regular.otf */,
+				5CDA60151C7F125A003E74F6 /* OpenSans-Regular.ttf */,
+				5CDA60161C7F125A003E74F6 /* ostrich-regular.ttf */,
+				5CDA60171C7F125A003E74F6 /* Oswald-Regular.ttf */,
+				5CDA60181C7F125A003E74F6 /* Pacifico.ttf */,
+				5CDA60191C7F125A003E74F6 /* PlayfairDisplaySC-Regular.ttf */,
+				5CDA601A1C7F125A003E74F6 /* Quicksand-Regular.otf */,
+				5CDA601B1C7F125A003E74F6 /* Raleway-Regular.ttf */,
+				5CDA601C1C7F125A003E74F6 /* Roboto-Regular.ttf */,
+				5CDA601D1C7F125A003E74F6 /* RobotoSlab-Regular.ttf */,
+				5CDA601E1C7F125A003E74F6 /* SEASRN__.ttf */,
+				5CDA601F1C7F125A003E74F6 /* Sofia-Regular.otf */,
+				5CDA60201C7F125A003E74F6 /* SourceSansPro-Regular.otf */,
+				5CDA60211C7F125A003E74F6 /* Titillium-Regular.otf */,
+				5CDA60221C7F125A003E74F6 /* Walkway_Bold.ttf */,
+				5CDA60231C7F125A003E74F6 /* Windsong.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		5CDA604E1C7F258D003E74F6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5CDA5FF71C7EFCEF003E74F6 /* SwiftyJSON.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		5CDCB1501C7C65A0002786DB = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +256,8 @@
 		5CDCB15B1C7C65A0002786DB /* Quoter */ = {
 			isa = PBXGroup;
 			children = (
+				5CDA604E1C7F258D003E74F6 /* Helper */,
+				5CDA5FF91C7F1245003E74F6 /* Fonts */,
 				5C60C0361C7CA6EF00630EF7 /* NavigationDrawer */,
 				5C60C0351C7CA6DE00630EF7 /* Pages */,
 				5CDCB15C1C7C65A0002786DB /* AppDelegate.swift */,
@@ -116,6 +265,8 @@
 				5CDCB1631C7C65A0002786DB /* Assets.xcassets */,
 				5CDCB1651C7C65A0002786DB /* LaunchScreen.storyboard */,
 				5CDCB1681C7C65A0002786DB /* Info.plist */,
+				5CDA60511C7F3E82003E74F6 /* Quote.swift */,
+				5CDA604F1C7F3E0F003E74F6 /* PopularQuotesCell.swift */,
 			);
 			path = Quoter;
 			sourceTree = "<group>";
@@ -163,6 +314,7 @@
 				TargetAttributes = {
 					5CDCB1581C7C65A0002786DB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 23KRTTQ37H;
 					};
 				};
 			};
@@ -189,9 +341,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDA602D1C7F248F003E74F6 /* Capture_it.ttf in Resources */,
 				5CDCB1671C7C65A0002786DB /* LaunchScreen.storyboard in Resources */,
+				5CDA60371C7F248F003E74F6 /* KaushanScript-Regular.otf in Resources */,
+				5CDA603B1C7F248F003E74F6 /* Lobster.otf in Resources */,
+				5CDA60291C7F248F003E74F6 /* Arizonia-Regular.ttf in Resources */,
+				5CDA60321C7F248F003E74F6 /* Exo-Regular.otf in Resources */,
 				5CDCB1641C7C65A0002786DB /* Assets.xcassets in Resources */,
+				5CDA603F1C7F248F003E74F6 /* OpenSans-Regular.ttf in Resources */,
+				5CDA604C1C7F248F003E74F6 /* Walkway_Bold.ttf in Resources */,
+				5CDA60451C7F248F003E74F6 /* Raleway-Regular.ttf in Resources */,
+				5CDA60341C7F248F003E74F6 /* GoodDog.otf in Resources */,
+				5CDA602C1C7F248F003E74F6 /* cac_champagne.ttf in Resources */,
+				5CDA60401C7F248F003E74F6 /* ostrich-regular.ttf in Resources */,
+				5CDA604B1C7F248F003E74F6 /* Titillium-Regular.otf in Resources */,
+				5CDA602F1C7F248F003E74F6 /* Chunkfive.otf in Resources */,
+				5CDA60361C7F248F003E74F6 /* GreatVibes-Regular.otf in Resources */,
+				5CDA60251C7F248F003E74F6 /* Aller_Lt.ttf in Resources */,
+				5CDA60311C7F248F003E74F6 /* Dosis-Regular.otf in Resources */,
+				5CDA60271C7F248F003E74F6 /* AmaticSC-Regular.ttf in Resources */,
+				5CDA60421C7F248F003E74F6 /* Pacifico.ttf in Resources */,
+				5CDA60301C7F248F003E74F6 /* DancingScript-Regular.otf in Resources */,
+				5CDA60241C7F2489003E74F6 /* AlexBrush-Regular.ttf in Resources */,
+				5CDA604A1C7F248F003E74F6 /* SourceSansPro-Regular.otf in Resources */,
+				5CDA602A1C7F248F003E74F6 /* BEBAS___.ttf in Resources */,
+				5CDA60331C7F248F003E74F6 /* FFF_Tusj.ttf in Resources */,
+				5CDA603D1C7F248F003E74F6 /* Mathlete-Bulky.otf in Resources */,
+				5CDA60491C7F248F003E74F6 /* Sofia-Regular.otf in Resources */,
+				5CDA60351C7F248F003E74F6 /* GrandHotel-Regular.otf in Resources */,
+				5CDA60411C7F248F003E74F6 /* Oswald-Regular.ttf in Resources */,
 				5CDCB1621C7C65A0002786DB /* Main.storyboard in Resources */,
+				5CDA60381C7F248F003E74F6 /* Lato-Regular.ttf in Resources */,
+				5CDA60391C7F248F003E74F6 /* LeagueGothic-Regular.otf in Resources */,
+				5CDA603E1C7F248F003E74F6 /* Montserrat-Regular.otf in Resources */,
+				5CDA602E1C7F248F003E74F6 /* CaviarDreams.ttf in Resources */,
+				5CDA60471C7F248F003E74F6 /* RobotoSlab-Regular.ttf in Resources */,
+				5CDA603A1C7F248F003E74F6 /* LearningCurve_OT.otf in Resources */,
+				5CDA602B1C7F248F003E74F6 /* black_jack.ttf in Resources */,
+				5CDA603C1C7F248F003E74F6 /* LobsterTwo-Regular.otf in Resources */,
+				5CDA604D1C7F248F003E74F6 /* Windsong.ttf in Resources */,
+				5CDA60481C7F248F003E74F6 /* SEASRN__.ttf in Resources */,
+				5CDA60431C7F248F003E74F6 /* PlayfairDisplaySC-Regular.ttf in Resources */,
+				5CDA60461C7F248F003E74F6 /* Roboto-Regular.ttf in Resources */,
+				5CDA60281C7F248F003E74F6 /* Antonio-Regular.ttf in Resources */,
+				5CDA60441C7F248F003E74F6 /* Quicksand-Regular.otf in Resources */,
+				5CDA60261C7F248F003E74F6 /* Allura-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +447,15 @@
 				5C60C0271C7C6AA700630EF7 /* NavigationDrawer.swift in Sources */,
 				5C60C0331C7CA6A100630EF7 /* FavoriteQuotesViewController.swift in Sources */,
 				5C60C02B1C7C87C100630EF7 /* NavigationDrawerItem.swift in Sources */,
+				5CDA5FF81C7EFCEF003E74F6 /* SwiftyJSON.swift in Sources */,
 				5CDCB15F1C7C65A0002786DB /* QODViewController.swift in Sources */,
+				5CDA60521C7F3E82003E74F6 /* Quote.swift in Sources */,
 				5C60C0311C7CA57100630EF7 /* WriteYourOwnViewController.swift in Sources */,
 				5C60C0291C7C861400630EF7 /* NavigationDrawerCell.swift in Sources */,
 				5C60C02D1C7C8E7B00630EF7 /* PopularQuotesViewController.swift in Sources */,
 				5C60C0381C7CA7DD00630EF7 /* AboutMeViewController.swift in Sources */,
 				5CDCB15D1C7C65A0002786DB /* AppDelegate.swift in Sources */,
+				5CDA60501C7F3E0F003E74F6 /* PopularQuotesCell.swift in Sources */,
 				5C60C03A1C7CA88600630EF7 /* CreditsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,10 +568,15 @@
 			baseConfigurationReference = CFB08C226E6D31261782245E /* Pods-Quoter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Quoter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dilaver.Quoter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -383,10 +585,15 @@
 			baseConfigurationReference = 475CFF23F59BFDEADA93C975 /* Pods-Quoter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Quoter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.dilaver.Quoter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
