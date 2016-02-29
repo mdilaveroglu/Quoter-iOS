@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C166B4E1C84485F008B65C4 /* FavoriteQuotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C166B4D1C84485F008B65C4 /* FavoriteQuotesCell.swift */; };
 		5C60C0271C7C6AA700630EF7 /* NavigationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60C0261C7C6AA700630EF7 /* NavigationDrawer.swift */; };
 		5C60C0291C7C861400630EF7 /* NavigationDrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60C0281C7C861400630EF7 /* NavigationDrawerCell.swift */; };
 		5C60C02B1C7C87C100630EF7 /* NavigationDrawerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60C02A1C7C87C100630EF7 /* NavigationDrawerItem.swift */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		475CFF23F59BFDEADA93C975 /* Pods-Quoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quoter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quoter/Pods-Quoter.release.xcconfig"; sourceTree = "<group>"; };
+		5C166B4D1C84485F008B65C4 /* FavoriteQuotesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteQuotesCell.swift; sourceTree = "<group>"; };
 		5C60C0261C7C6AA700630EF7 /* NavigationDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawer.swift; sourceTree = "<group>"; };
 		5C60C0281C7C861400630EF7 /* NavigationDrawerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerCell.swift; sourceTree = "<group>"; };
 		5C60C02A1C7C87C100630EF7 /* NavigationDrawerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerItem.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				5CDCB1681C7C65A0002786DB /* Info.plist */,
 				5CDA60511C7F3E82003E74F6 /* Quote.swift */,
 				5CDA604F1C7F3E0F003E74F6 /* PopularQuotesCell.swift */,
+				5C166B4D1C84485F008B65C4 /* FavoriteQuotesCell.swift */,
 			);
 			path = Quoter;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C166B4E1C84485F008B65C4 /* FavoriteQuotesCell.swift in Sources */,
 				5C60C0271C7C6AA700630EF7 /* NavigationDrawer.swift in Sources */,
 				5C60C0331C7CA6A100630EF7 /* FavoriteQuotesViewController.swift in Sources */,
 				5C60C02B1C7C87C100630EF7 /* NavigationDrawerItem.swift in Sources */,

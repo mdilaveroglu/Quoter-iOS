@@ -7,7 +7,6 @@ target 'Quoter' do
 pod 'Alamofire', '~> 3.0'
 pod 'MMDrawerController', '~> 0.5.7'
 pod 'Font-Awesome-Swift', '~> 1.4.3'
-pod 'Kanna', '~> 1.0.0'
 
 end
 

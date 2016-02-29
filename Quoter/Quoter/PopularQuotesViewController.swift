@@ -11,8 +11,7 @@ import Font_Awesome_Swift
 import MMDrawerController
 import Alamofire
 
-
-class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIGestureRecognizerDelegate  {
     
     
     @IBOutlet weak var navigationDrawerButton: UIBarButtonItem!
@@ -22,6 +21,7 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
     
     var quotes = Array<Quote>()
     
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,6 +29,11 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
         infoButton.setFAIcon(FAType.FAInfoCircle, iconSize: 25)
         popularQuotesLoadingIndicator.startAnimating()
         self.tableView.tableFooterView = UIView()
+        
+        let longPressGesture: UILongPressGestureRecognizer = UILongPressGestureRecognizer(target: self, action: "handlePopularQuotesLongPress:")
+        longPressGesture.minimumPressDuration = 1.0
+        longPressGesture.delegate = self
+        self.tableView.addGestureRecognizer(longPressGesture)
         
         Alamofire.request(.GET, "https://www.reddit.com/r/quotes.json")
             .responseJSON { response in
@@ -43,7 +48,6 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
                     let json = JSON(value)
                     
                     if let children = json["data"]["children"].array{
-                        
                         self.parseRedditData(children)
                     }
                 }
@@ -58,9 +62,7 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
                     
                     if newQuote.containsString("-"){
                         if let quoteString = newQuote.componentsSeparatedByString("-").first{
-                            if let authorString = newQuote.componentsSeparatedByString("-").last{
-                                print(quoteString)
-                                
+                            if let authorString = newQuote.componentsSeparatedByString("-").last{                                
                                 quotes.append((Quote(quote: quoteString, author: authorString)))
                             }
                         }
@@ -106,9 +108,33 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
         return popularQuotesCell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func handlePopularQuotesLongPress(longPressGesture: UILongPressGestureRecognizer){
+        let p = longPressGesture.locationInView(self.tableView)
+        let indexPath = self.tableView.indexPathForRowAtPoint(p)
         
+        if indexPath == nil {
+            print("Long press on table view, not row.")
+        } else if (longPressGesture.state == UIGestureRecognizerState.Began) {
+            print("Long press on row, at \(indexPath!.row)")
+            showMultipleSelectionBox(indexPath!)
+        }
     }
     
-
+    
+    func showMultipleSelectionBox(indexPath: NSIndexPath){
+        let ac = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
+        ac.addAction(UIAlertAction(title: "Save", style: .Default){ (action) in self.saveQuote(indexPath)})
+        ac.addAction(UIAlertAction(title: "Share", style: .Default){ (action) in self.shareQuote(indexPath)})
+        ac.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+        presentViewController(ac, animated: true, completion: nil)
+    }
+    
+    func saveQuote(indexPath: NSIndexPath!){
+        let quoteToBeSaved = quotes[indexPath.row]
+        
+                print("Saved")
+    }
+    func shareQuote(indexPath: NSIndexPath!){
+        print("SHARE")
+    }
 }

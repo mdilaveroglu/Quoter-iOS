@@ -86,12 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Quoter/Alamofire.framework"
   install_framework "Pods-Quoter/Font_Awesome_Swift.framework"
-  install_framework "Pods-Quoter/Kanna.framework"
   install_framework "Pods-Quoter/MMDrawerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Quoter/Alamofire.framework"
   install_framework "Pods-Quoter/Font_Awesome_Swift.framework"
-  install_framework "Pods-Quoter/Kanna.framework"
   install_framework "Pods-Quoter/MMDrawerController.framework"
 fi

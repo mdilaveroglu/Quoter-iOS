@@ -10,11 +10,15 @@ import UIKit
 import Font_Awesome_Swift
 import MMDrawerController
 
-class WriteYourOwnViewController: UIViewController {
+class WriteYourOwnViewController: UIViewController{
 
     @IBOutlet weak var navigationDrawerButton: UIBarButtonItem!
     @IBOutlet weak var doneButton: UIBarButtonItem!
     @IBOutlet weak var shareButton: UIBarButtonItem!
+    
+    @IBOutlet weak var quoteInput: UITextField!
+    @IBOutlet weak var authorInput: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

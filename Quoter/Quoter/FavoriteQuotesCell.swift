@@ -1,15 +1,15 @@
 //
-//  PopularQuotesCell.swift
+//  FavoriteQuotesCell.swift
 //  Quoter
 //
-//  Created by argeus on 25.02.2016.
+//  Created by argeus on 29.02.2016.
 //  Copyright © 2016 argeus. All rights reserved.
 //
 
 import UIKit
 
-class PopularQuotesCell: UITableViewCell {
-    
+class FavoriteQuotesCell: UITableViewCell {
+
     @IBOutlet weak var quote: UILabel!
     @IBOutlet weak var author: UILabel!
     
