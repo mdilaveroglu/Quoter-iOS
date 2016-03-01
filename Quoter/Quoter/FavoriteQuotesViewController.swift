@@ -17,6 +17,8 @@ class FavoriteQuotesViewController: UIViewController, UITableViewDataSource, UIT
     
     var quotes = Array<Quote>()
     
+    let defaults = NSUserDefaults.standardUserDefaults()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,14 +30,14 @@ class FavoriteQuotesViewController: UIViewController, UITableViewDataSource, UIT
         longPressGesture.delegate = self
         self.tableView.addGestureRecognizer(longPressGesture)
         
-        if quotes.isEmpty {
+        
+        if let savedQuotesData = defaults.objectForKey(StorageKeys.favoriteQuotes){
+            quotes = NSKeyedUnarchiver.unarchiveObjectWithData(savedQuotesData as! NSData) as! [Quote]
+            self.tableView.reloadData()
+        }else{
             noFavoriteQuotesLabel.hidden = false
         }
-        
-        
-        for quote in quotes {
-            print("Q: \(quote.quote)    A: \(quote.author) \n ")
-        }
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,10 +49,7 @@ class FavoriteQuotesViewController: UIViewController, UITableViewDataSource, UIT
         let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
     }
-    
-    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 0
-    }
+  
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return quotes.count
@@ -72,6 +71,10 @@ class FavoriteQuotesViewController: UIViewController, UITableViewDataSource, UIT
         return favoriteQuotesCell
     }
     
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 176
+    }
+    
     func handleFavoriteQuotesLongPress(longPressGesture: UILongPressGestureRecognizer){
         let p = longPressGesture.locationInView(self.tableView)
         let indexPath = self.tableView.indexPathForRowAtPoint(p)
@@ -84,20 +87,31 @@ class FavoriteQuotesViewController: UIViewController, UITableViewDataSource, UIT
         }
     }
     
+    
     func showMultipleSelectionBox(indexPath: NSIndexPath){
         let ac = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
-        ac.addAction(UIAlertAction(title: "Save", style: .Default){ (action) in self.saveQuote(indexPath)})
+        ac.addAction(UIAlertAction(title: "Delete", style: .Default){ (action) in self.deleteQuote(indexPath)})
         ac.addAction(UIAlertAction(title: "Share", style: .Default){ (action) in self.shareQuote(indexPath)})
         ac.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
         presentViewController(ac, animated: true, completion: nil)
     }
     
-    func saveQuote(indexPath: NSIndexPath!){
-        print("SAVE")
+    func deleteQuote(indexPath: NSIndexPath!){
+        quotes.removeAtIndex(indexPath.row)
+        self.tableView.reloadData()
+        
+        let encodedData = NSKeyedArchiver.archivedDataWithRootObject(quotes)
+        defaults.setObject(encodedData, forKey: StorageKeys.favoriteQuotes)
+        defaults.synchronize()
+        
+        if quotes.isEmpty {
+            noFavoriteQuotesLabel.hidden = false
+        }
     }
     
     func shareQuote(indexPath: NSIndexPath!){
         print("SHARE")
     }
+
 
 }

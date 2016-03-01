@@ -43,6 +43,5 @@ class WriteYourOwnViewController: UIViewController{
     }
     
     @IBAction func shareButtonTapped(sender: UIBarButtonItem) {
-    }
-    
+    }    
 }

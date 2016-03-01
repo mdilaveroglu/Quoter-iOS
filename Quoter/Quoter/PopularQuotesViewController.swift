@@ -20,7 +20,9 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet weak var popularQuotesLoadingIndicator: UIActivityIndicatorView!
     
     var quotes = Array<Quote>()
+    var favoriteQuotes = Array<Quote>()
     
+    let defaults = NSUserDefaults.standardUserDefaults()
  
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,8 +76,8 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
         popularQuotesLoadingIndicator.stopAnimating()
     }
 
-    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 0
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 176
     }
 
     
@@ -115,7 +117,6 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
         if indexPath == nil {
             print("Long press on table view, not row.")
         } else if (longPressGesture.state == UIGestureRecognizerState.Began) {
-            print("Long press on row, at \(indexPath!.row)")
             showMultipleSelectionBox(indexPath!)
         }
     }
@@ -131,8 +132,22 @@ class PopularQuotesViewController: UIViewController, UITableViewDataSource, UITa
     
     func saveQuote(indexPath: NSIndexPath!){
         let quoteToBeSaved = quotes[indexPath.row]
-        
-                print("Saved")
+        if let savedQuotesData = defaults.objectForKey(StorageKeys.favoriteQuotes){
+            favoriteQuotes = NSKeyedUnarchiver.unarchiveObjectWithData(savedQuotesData as! NSData) as! [Quote]
+
+            if !favoriteQuotes.contains(quoteToBeSaved) {
+                favoriteQuotes.append(quoteToBeSaved)
+                
+                let encodedData = NSKeyedArchiver.archivedDataWithRootObject(favoriteQuotes)
+                defaults.setObject(encodedData, forKey: StorageKeys.favoriteQuotes)
+                defaults.synchronize()
+
+            }
+        }else{
+            let encodedData = NSKeyedArchiver.archivedDataWithRootObject([quoteToBeSaved])
+            defaults.setObject(encodedData, forKey: StorageKeys.favoriteQuotes)
+            defaults.synchronize()
+        }
     }
     func shareQuote(indexPath: NSIndexPath!){
         print("SHARE")

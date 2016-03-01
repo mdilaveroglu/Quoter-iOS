@@ -107,4 +107,7 @@ class NavigationDrawer: UIViewController, UITableViewDataSource, UITableViewDele
         }
 
     }
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
 }
