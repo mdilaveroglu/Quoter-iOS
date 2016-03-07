@@ -496,7 +496,72 @@
                     <view key="view" contentMode="scaleToFill" id="kjO-vj-xDD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mehmet Dilaveroğlu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5A-2q-VZK">
+                                <rect key="frame" x="20" y="619" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDU-GQ-XYW">
+                                <rect key="frame" x="20" y="648" width="374" height="30"/>
+                                <state key="normal" title="mdilaveroglu@gmail.com">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailTapped:" destination="cGn-dB-A01" eventType="touchUpInside" id="h14-v3-TsF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4Z-0X-5R2">
+                                <rect key="frame" x="107" y="686" width="30" height="30"/>
+                                <state key="normal" title="F">
+                                    <color key="titleColor" red="0.0" green="0.58823529409999997" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookTapped:" destination="cGn-dB-A01" eventType="touchUpInside" id="h32-18-Tf3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-qj-rg1">
+                                <rect key="frame" x="192" y="686" width="30" height="30"/>
+                                <state key="normal" title="T">
+                                    <color key="titleColor" red="0.0" green="0.58823529409999997" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="twitterTapped:" destination="cGn-dB-A01" eventType="touchUpInside" id="h01-lU-zeZ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mehmet" translatesAutoresizingMaskIntoConstraints="NO" id="GGy-1l-kYE">
+                                <rect key="frame" x="107" y="268" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="8vx-IN-toe"/>
+                                    <constraint firstAttribute="width" constant="200" id="aBV-LO-n83"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udw-9j-N81">
+                                <rect key="frame" x="277" y="686" width="30" height="30"/>
+                                <state key="normal" title="L">
+                                    <color key="titleColor" red="0.0" green="0.58823529409999997" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="linkedinTapped:" destination="cGn-dB-A01" eventType="touchUpInside" id="t5b-cD-Y6l"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jj2-6E-aGP" firstAttribute="top" secondItem="udw-9j-N81" secondAttribute="bottom" constant="20" id="32W-xO-qHt"/>
+                            <constraint firstItem="i4Z-0X-5R2" firstAttribute="leading" secondItem="GGy-1l-kYE" secondAttribute="leading" id="7f3-D6-Bux"/>
+                            <constraint firstItem="udw-9j-N81" firstAttribute="trailing" secondItem="GGy-1l-kYE" secondAttribute="trailing" id="GZO-gP-njy"/>
+                            <constraint firstItem="y5A-2q-VZK" firstAttribute="centerX" secondItem="kjO-vj-xDD" secondAttribute="centerX" id="HSl-ch-dux"/>
+                            <constraint firstItem="Jj2-6E-aGP" firstAttribute="top" secondItem="cVe-qj-rg1" secondAttribute="bottom" constant="20" id="I1V-PR-OBW"/>
+                            <constraint firstItem="cVe-qj-rg1" firstAttribute="centerX" secondItem="kjO-vj-xDD" secondAttribute="centerX" id="LSD-hp-eRt"/>
+                            <constraint firstItem="GGy-1l-kYE" firstAttribute="centerY" secondItem="kjO-vj-xDD" secondAttribute="centerY" id="Rpy-Qp-Fdx"/>
+                            <constraint firstItem="KDU-GQ-XYW" firstAttribute="centerX" secondItem="kjO-vj-xDD" secondAttribute="centerX" id="eEw-Iw-IQX"/>
+                            <constraint firstItem="udw-9j-N81" firstAttribute="top" secondItem="KDU-GQ-XYW" secondAttribute="bottom" constant="8" id="f9t-nE-Dzc"/>
+                            <constraint firstItem="KDU-GQ-XYW" firstAttribute="top" secondItem="y5A-2q-VZK" secondAttribute="bottom" constant="8" id="xJh-jI-MQM"/>
+                            <constraint firstItem="Jj2-6E-aGP" firstAttribute="top" secondItem="i4Z-0X-5R2" secondAttribute="bottom" constant="20" id="xrL-fS-rV5"/>
+                            <constraint firstItem="GGy-1l-kYE" firstAttribute="centerX" secondItem="kjO-vj-xDD" secondAttribute="centerX" id="zob-Oi-u7b"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About Me" id="dVN-fc-wM2">
                         <barButtonItem key="leftBarButtonItem" id="MbR-Sw-PNT">
@@ -507,7 +572,11 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="facebookButton" destination="i4Z-0X-5R2" id="aH9-mA-Awq"/>
+                        <outlet property="image" destination="GGy-1l-kYE" id="vaj-Nf-lEF"/>
+                        <outlet property="linkedinButton" destination="udw-9j-N81" id="1DC-ng-gKs"/>
                         <outlet property="navigationDrawerButton" destination="MbR-Sw-PNT" id="Ph9-fH-lFk"/>
+                        <outlet property="twitterButton" destination="cVe-qj-rg1" id="Q0U-kR-iTS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rm8-Gf-Ryo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -661,5 +730,6 @@
     <resources>
         <image name="header_background" width="512" height="512"/>
         <image name="main_background" width="768" height="432"/>
+        <image name="mehmet" width="273" height="273"/>
     </resources>
 </document>
